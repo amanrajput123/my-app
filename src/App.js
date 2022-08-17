@@ -1,12 +1,12 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import Header from "./my components/Header";
+
 
 function App() {
   return (
     <>
-    {/* <div>this is header </div>
-    <div>this is also header </div>
-    <div>this is also navbar</div> */}
+    <Header  tittle="Logo "/>
     </>
   );
 }
